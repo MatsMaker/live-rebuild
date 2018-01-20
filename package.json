@@ -1,0 +1,28 @@
+{
+  "name": "live-rebuild",
+  "version": "0.0.1",
+  "description": "''\u001b[Dsmall app for run gulp tasks by live changes on frontend'",
+  "main": "src/main.js",
+  "scripts": {
+    "debug": "electron --inspect=5858 .",
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatsMaker/live-rebuild.git"
+  },
+  "keywords": [
+    "livreload",
+    "gulp"
+  ],
+  "author": "MatsMaker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatsMaker/live-rebuild/issues"
+  },
+  "homepage": "https://github.com/MatsMaker/live-rebuild#readme",
+  "devDependencies": {
+    "electron": "^1.7.10"
+  }
+}
